@@ -1,0 +1,137 @@
+[
+  {
+    "id": 1,
+    "title": "Cannot login to account",
+    "description": "Customer is unable to login with correct credentials.",
+    "customer": "John Doe",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-01T10:15:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment failed",
+    "description": "Payment gateway is declining valid card transactions.",
+    "customer": "Jane Smith",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-02T09:30:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Request for refund",
+    "description": "Customer wants a refund for the last order.",
+    "customer": "Alex Johnson",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-03-02T14:20:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Bug in checkout page",
+    "description": "Error occurs when trying to apply coupon code.",
+    "customer": "Emily Davis",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03T08:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Account suspended",
+    "description": "Customer account has been suspended without notice.",
+    "customer": "Michael Brown",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-03T11:10:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Incorrect order delivered",
+    "description": "Customer received wrong item from recent order.",
+    "customer": "Laura Wilson",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-03-04T13:00:00Z"
+  },
+  {
+    "id": 7,
+    "title": "Shipping delay",
+    "description": "Order is delayed beyond expected delivery date.",
+    "customer": "David Lee",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-03-04T16:30:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Unable to reset password",
+    "description": "Customer cannot reset password via email link.",
+    "customer": "Sophia Martinez",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-05T09:50:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Website not loading",
+    "description": "Customer reports the website is down on mobile devices.",
+    "customer": "James Taylor",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-05T12:15:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Feature request",
+    "description": "Customer wants a dark mode option on the dashboard.",
+    "customer": "Olivia Anderson",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-03-06T10:00:00Z"
+  },
+  {
+    "id": 11,
+    "title": "Invoice not received",
+    "description": "Customer did not receive invoice via email.",
+    "customer": "William Thomas",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-03-06T11:25:00Z"
+  },
+  {
+    "id": 12,
+    "title": "App crashing on startup",
+    "description": "Mobile app crashes immediately after launch.",
+    "customer": "Mia Jackson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-06T14:45:00Z"
+  },
+  {
+    "id": 13,
+    "title": "Change billing info",
+    "description": "Customer wants to update credit card details.",
+    "customer": "Ethan White",
+    "priority": "Low",
+    "status": "Closed",
+    "createdAt": "2026-03-07T09:10:00Z"
+  },
+  {
+    "id": 14,
+    "title": "Subscription canceled by mistake",
+    "description": "Customer accidentally canceled subscription and wants it restored.",
+    "customer": "Isabella Harris",
+    "priority": "Medium",
+    "status": "Pending",
+    "createdAt": "2026-03-07T10:30:00Z"
+  },
+  {
+    "id": 15,
+    "title": "Error applying discount code",
+    "description": "Discount code is not working on checkout page.",
+    "customer": "Liam Robinson",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-07T11:50:00Z"
+  }
+]
