@@ -6,11 +6,12 @@ import { Services } from "./Components/Services/Services";
 
 function App() {
   const [progress, setProgress] = useState(0);
+  const [taskStatus, setTaskStatus] = useState([]);
   return (
     <>
       <NavBar />
       <Banner progress={progress} />
-        <Services setProgress={setProgress} progress={progress}/>
+      <Services setProgress={setProgress} progress={progress} setTaskStatus={setTaskStatus} taskStatus={taskStatus}/>
     </>
   );
 }

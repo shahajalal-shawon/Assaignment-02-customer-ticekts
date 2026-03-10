@@ -8,7 +8,7 @@ const fetchTickets = async () => {
 };
 
 const fetchPromise = fetchTickets();
-export const Services = ({progress,setProgress}) => {
+export const Services = ({progress,setProgress, taskStatus, setTaskStatus}) => {
   return (
     <div className="flex max-w-7xl mx-auto mt-10 w-70%">
       {/*customer ticket  */}
@@ -17,7 +17,7 @@ export const Services = ({progress,setProgress}) => {
         <Suspense
           fallback={<span className='loading loading-bars loading-xl'></span>}
         >
-          <CustomerTicket progress={progress} setProgress={setProgress} fetchPromise={fetchPromise}></CustomerTicket>
+          <CustomerTicket setTaskStatus={setTaskStatus} taskStatus={taskStatus} progress={progress} setProgress={setProgress} fetchPromise={fetchPromise}></CustomerTicket>
         </Suspense>
       </div>
       {/* task status */}
